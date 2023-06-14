@@ -1,0 +1,175 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.note{
+  display: flex;
+  gap: 1vw;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(90deg, rgba(65, 37, 81, 1) 0%, rgba(119, 28, 90, 1) 100%);
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 999;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: white;
+}
+
+.popup form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup label {
+  font-weight: bold;
+  color: white;
+}
+
+.popup input,
+.popup textarea {
+  width: 100%;
+  padding: 5px;
+  background-color: white;
+  color: black;
+}
+
+.popup button {
+  margin-top: 10px;
+}
+.card {
+  background: linear-gradient(90deg, rgba(65, 37, 81, 1) 0%, rgba(119, 28, 90, 1) 100%);
+  border-radius: 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.card textarea {
+  resize: vertical;
+  vertical-align: middle;
+}
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card label {
+  margin-bottom: 5px;
+  color: white;
+  padding: 10px;
+}
+
+.card input,
+.card textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: black;
+  background-color: white;
+}
+
+.card button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card button[type="submit"] {
+  background-color: #008cba;
+}
+
+.card button[type="submit"]:hover,
+.card button[type="submit"]:focus {
+  background-color: #007799;
+}
+
+.card button[type="submit"]:disabled {
+  background-color: #999999;
+  cursor: not-allowed;
+}
+
+.card textarea {
+  resize: vertical;
+}
+
+li{
+  list-style: none;
+}
+.cards {
+  padding: 30px;
+  border-radius: 24px;
+  margin-bottom: 10px;
+}
+
+.note.red {
+  background-color: rgb(189, 26, 26) !important;
+}
+
+.note.orange {
+  background-color: rgb(187, 133, 33) !important;
+}
+
+.note.yellow {
+  background-color: rgb(192, 192, 13) !important;
+}
+
+.note.green {
+  background-color: rgb(37, 170, 37) !important;
+}
